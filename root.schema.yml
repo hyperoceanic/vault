@@ -1,0 +1,17 @@
+version: 1
+imports: []
+schemas:
+  - id: root
+    title: root
+    parent: root
+    children: 
+      - projects
+      - areas
+  - id: projects
+    desc: Project activities
+    parent: root
+    namespace: true
+  - id: areas
+    desc: Areas of Responsibility
+    parent: rootÒÒ
+    namespace: true
